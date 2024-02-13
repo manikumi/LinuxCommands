@@ -90,3 +90,7 @@ apt update
 
 # to install  the required package in Ubuntu
 apt install (package_name)
+
+# to copy all the files and folders to other location
+navigate to the folder where all the files and folders inside that folder to be copied to another location
+cd -r * /path_of_location
