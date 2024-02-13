@@ -22,22 +22,22 @@ ls
 # to view the list of files  or directories in the long format (permission, date , time)
 ls -l
 
-#to view the list of files  or directories in the long format in ascending order (A-Z, It shows lateste modified files or directories at the bottom)
+# to view the list of files  or directories in the long format in ascending order (A-Z, It shows lateste modified files or directories at the bottom)
 ls -lrt
 
-#to view the list of files  or directories in the long format in descending order (Z-A, It shows lateste modified files or directories at the top)
+# to view the list of files  or directories in the long format in descending order (Z-A, It shows lateste modified files or directories at the top)
 ls -lt
 
-#to view the files/directories inside the directoies
+# to view the files/directories inside the directoies
 ls -l FN/DN
 
-#change directory
+# change directory
 cd 
 
-#to come out from the previous directory
+# to come out from the previous directory
 cd ..
 
-#to come out from the previous directory
+# to come out from the previous directory
 cd -
 
 # to come out from the previous two directories
