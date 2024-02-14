@@ -101,4 +101,5 @@ mv old_directoty_name new_directory_name
 
 # to find the any directory or file name
 find / -name jvm
+
 find / -name java-11*
