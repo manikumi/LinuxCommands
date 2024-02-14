@@ -95,3 +95,6 @@ apt install (package_name)
 navigate to the folder where all the files and folders inside that folder to be copied to another location
 
 cp -r * /path_of_location
+
+# to rename directory 
+mv old_directoty_name new_directory_name
