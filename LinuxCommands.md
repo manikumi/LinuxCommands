@@ -103,3 +103,78 @@ mv old_directoty_name new_directory_name
 find / -name jvm
 
 find / -name java-11*
+
+# To get the public key of the EC2 Insatnce
+cd ~/.ssh
+
+# To create a symbolic link
+ln -s Original_path path_where_link_to_be_created
+
+# To delete file
+rm file_name
+
+# To copy all the files and folders from present directory to one step above directory
+cp -r * ../directory_name/
+
+# To check the users
+cat /etc/passwd
+
+# To check the groups
+cat /etc/group
+
+# To create user
+useradd user_name
+
+# To add passwd to user
+passwd user_name
+
+# To add user to group
+usermod -aG group_name user_name
+
+# enable password authentication for ec2 instance
+vi /etc/ssh/sshd_config
+
+# reload sshd
+service sshd reload
+
+# Recursively and Force removal of files or directories.
+rm -rf directory_name/
+
+# give permission of the directory to user
+chown -R user_name:user_name directory_name
+
+# move the file
+mv file_name directory_path
+
+# change the hostname
+vi etc/hostname
+
+# reboot
+init 6
+
+# add user to sudoer
+visudo
+
+# switch to user
+sudo su - user_name
+
+# become root user
+sudo su -
+
+# find the matching word in file
+grep word_search path/
+
+# copy key from source server to target server
+ssh-copy-id target_server_private_IP
+
+# check the connection details of ansible
+ansible all -m ping
+
+# uptime of ansible 
+ansible all -m command -a uptime
+
+
+
+
+
+
