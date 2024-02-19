@@ -164,14 +164,7 @@ sudo su -
 # find the matching word in file
 grep word_search path/
 
-# copy key from source server to target server
-ssh-copy-id target_server_private_IP
 
-# check the connection details of ansible
-ansible all -m ping
-
-# uptime of ansible 
-ansible all -m command -a uptime
 
 
 
