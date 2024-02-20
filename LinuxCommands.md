@@ -164,7 +164,11 @@ sudo su -
 # find the matching word in file
 grep word_search path/
 
+# untar file
+tar xvzf tar_file
 
+# check user group
+id user_name
 
 
 
