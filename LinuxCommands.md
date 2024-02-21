@@ -170,6 +170,9 @@ tar xvzf tar_file
 # check user group
 id user_name
 
+# add sudo access to ec2-user
+echo "ec2-user All=(All) NOPASSWD:ALL" >> /etc/sudoers
+
 
 
 
